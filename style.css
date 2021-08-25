@@ -1,0 +1,107 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.card {
+    display: block;
+    text-align: center;
+    width: 450px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.texts {
+    margin-top: 35px;
+    padding: 0 15%;
+}
+
+.texts h1 {
+    margin-bottom: 20px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.texts p {
+    line-height: 30px;
+    margin-bottom: 35px;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 15px 10px;
+    margin: 0 65px 0 65px;
+    border-radius: 10px;
+}
+
+.music-icon {
+    display: flex;
+    align-items: center;
+}
+
+.plan-texts h1 {
+    font-size: 1rem;
+    color: hsl(223, 47%, 23%);
+}
+
+.plan-texts p {
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-texts {
+    margin-right: 80px;
+}
+
+.plan a {
+    display: flex;
+    align-items: center;
+    font-size: .9rem;
+    color: hsl(245, 75%, 52%);
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-btn {
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    text-align: center;
+    margin-top: 45px;
+    padding: 15px 110px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.4);
+}
+
+.order-btn {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    margin-top: 30px;
+}
